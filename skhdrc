@@ -30,7 +30,7 @@ hyper - g : yabai -m window --toggle native-fullscreen
 hyper - a : yabai -m window --toggle float
 
 # restart
-hyper - n : brew services restart yabai
+hyper - n : yabai --restart-service
 hyper - m : brew services restart sketchybar
 
 # hyper - 1 : python3 ~/kod/bash_scripting/to_study.py
