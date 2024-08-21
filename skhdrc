@@ -14,8 +14,8 @@ hyper - k : yabai -m space --focus next || yabai -m space --focus first
 hyper - h : (yabai -m window --space prev || yabai -m window --space last) && (yabai -m space --focus prev || yabai -m space --focus last)
 hyper - l : (yabai -m window --space next || yabai -m window --space first) && (yabai -m space --focus next || yabai -m space --focus first)
 
-hyper - c : yabai -m space --create
-hyper - d : yabai -m space --destroy
+# hyper - c : yabai -m space --create
+# hyper - d : yabai -m space --destroy
 
 # windows in a space
 hyper - r : yabai -m space --rotate 90 # rotate the window tree by 90 degrees 
